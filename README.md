@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/bbbd4cc1-b4f2-4ed3-9b65-341ba0e45d2d
 
 
 ## Usage
-The RendererFeature simply draws the current frame into the persistent buffer using the provided material, then writes that persistent buffer back into the main color buffer. To sample the current frame, use the URP Sample Buffer Node.
+The RendererFeature draws the current frame onto the persistent buffer using the provided material, performs transformation operations on the buffered frame to either shift it linearly or radially, then writes that transformed buffer back into the main color buffer. To sample the current frame, use the URP Sample Buffer Node.
 
 
 ## Installation
