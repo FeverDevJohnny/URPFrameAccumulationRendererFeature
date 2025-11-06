@@ -4,7 +4,7 @@ This RendererFeature allows you to store a copy of your color buffer at any give
 
 An example shader graph with a simple alpha-blended frame accumulation motion blur is provided.
 
-https://github.com/user-attachments/assets/7844e03a-3dfd-42b3-b695-2dda5daf821a
+https://github.com/user-attachments/assets/bbbd4cc1-b4f2-4ed3-9b65-341ba0e45d2d
 
 
 
