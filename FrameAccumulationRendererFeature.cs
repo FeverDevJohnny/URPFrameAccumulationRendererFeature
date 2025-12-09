@@ -232,7 +232,7 @@ public class FrameAccumulationRendererFeature : ScriptableRendererFeature
     
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
     {
-        if (renderingData.cameraData.cameraType == CameraType.SceneView)
+        if (renderingData.cameraData.cameraType == CameraType.SceneView || !Application.isPlaying)
             return;
 
         AccumulationBlurVolumeComponent blurVolumeComponent = VolumeManager.instance.stack?.GetComponent<AccumulationBlurVolumeComponent>();
